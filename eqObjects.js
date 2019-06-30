@@ -1,11 +1,13 @@
 const eqArrays = function(arr1, arr2) {
-  let output = true;
+  if (arr1.length !== arr2.length) {
+    return false;
+  }
   arr1.forEach(function(element, index) {
     if (element !== arr2[index]) {
-      output = false;
+      return false;
     }
   });
-  return output;
+  return true;
 };
 
 
