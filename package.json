@@ -1,0 +1,27 @@
+{
+  "name": "@jpaulz/lotide",
+  "version": "1.0.0",
+  "description": "a modular collection of functions that operate on data",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpaulz/lotide.git"
+  },
+  "author": "JP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpaulz/lotide/issues"
+  },
+  "homepage": "https://github.com/jpaulz/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
